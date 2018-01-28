@@ -20,6 +20,9 @@ export default class HomeComponent extends Component{
                 <p>hello</p>
                 <p>hello</p>
                 <p>hello</p>
+                <p>hello</p>
+                <p>hello</p>
+                <p>hello</p>
             </div>
         )
     }
