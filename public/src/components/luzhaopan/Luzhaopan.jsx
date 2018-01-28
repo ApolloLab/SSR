@@ -6,6 +6,9 @@ export default class Test extends Component{
         return(
             <div>hell
             luhaopan
+                luzhapan2
+                1111
+
 
             </div>
         )
