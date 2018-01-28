@@ -1,14 +1,14 @@
-import React, {Component} from 'react';
+'use strict'
+import React, { Component } from 'react';
 import ReactDom from 'react-dom';
-import Test from './components/Test.jsx'
+import LoginComponent from './components/qinqi/LoginComponent.js';
 
 
-class App extends Component {
+export default class App extends React.Component {
     render() {
         return (
-            <div className="aaa">
-                <button className="btn btn-default" type="submit">button---</button>
-                <Test/>
+            <div>
+                <LoginComponent />
             </div>
         )
     }
