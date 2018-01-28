@@ -12,6 +12,9 @@
 
 ####开始
 * git branch  ---查看分支
+* git checkout dev ---切换到dev分支
+* git pull ---将远程拉下来
+* git merge dev  ---将devmerge到自己的分支
 * git checkout djl|zp|ls  ---切换进自己的分支
 * 在自己的本地分支修改代码，待修改完成
 * git add .   ---将本地的代码add进一个虚拟空间
