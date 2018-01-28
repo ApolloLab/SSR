@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: #ccc;
 }
@@ -5,3 +6,74 @@ body{
 .homeComponent_contents_css{
     background-color: #ddd;
 }
+=======
+body ul{
+    /*background-color: #ccc;*/
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+.container {
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto;
+ }
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#my{
+     border: 1px solid black;
+ }
+.myList{
+    outline: 1px solid red;
+    padding: 0 0 0 50px;
+}
+#myList li{
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 20px 0 50px 0;
+}
+#myList li ul li{
+    font-size: 16px;
+    font-weight: normal;
+    padding: 10px 0;
+}
+.myContent_infor{
+   margin-top: 50px;
+}
+.myContent_data{
+    height: 150px;
+  outline: 1px solid green;
+}
+.myContent_infor{
+    height: 400px;
+    outline: 1px solid pink;
+}
+.myContent_data li{
+    font-size: 16px;
+}
+.myContent_data li p{
+
+}
+>>>>>>> liushuo
