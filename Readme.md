@@ -22,7 +22,6 @@
 * git status   ---再次查看自己状态
 * git branch   ---查看分支
 * git checkout dev  ---切换到dev分支
-* git pull  ---将远程分之拉下来
 * git merge qinqi   ---将自己的分支代码merge到dev分支
 * git push origin dev    ---将本地dev分支上传到组织的dev分支
 * 如果出现上传错误  根据提示  git pull ---将远程代码拉下来

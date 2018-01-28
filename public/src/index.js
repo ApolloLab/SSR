@@ -1,16 +1,14 @@
-import React, {Component} from 'react';
+'use strict'
+import React, { Component } from 'react';
 import ReactDom from 'react-dom';
-import { Link } from 'react-router';
-import Test from './components/Test.jsx'
-import MyComponents from './MyComponents'
+import LoginComponent from './components/LoginComponent.js';
 
 
-
-class App extends Component {
+export default class App extends React.Component {
     render() {
         return (
-            <div className="aaa">
-               <MyComponents/>
+            <div>
+                <LoginComponent />
             </div>
         )
     }
