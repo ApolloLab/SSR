@@ -11,8 +11,6 @@
 >git branch ---查看本地分支
 
 ####开始
-
-* git remote -v ---查看所有远程分支的源
 * git checkout -b dev origin/dev  ---创建远程dev分支
 * git checkout -b  qinqi  ---创建自己的分支
 * 在自己的分支进行工作，待自己某一模块写好

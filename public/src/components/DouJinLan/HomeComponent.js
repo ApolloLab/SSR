@@ -6,7 +6,6 @@ export default class HomeComponent extends Component{
             <div className="homeComponent-contents-js homeComponent_contents_css">
                 <p>doujinlan</p>
                 <button>hello</button>
-
                 <input type="text" value={this.state} />
                 <p>hello</p>
                 <p>hello</p>
@@ -23,6 +22,13 @@ export default class HomeComponent extends Component{
                 <p>hello</p>
                 <p>hello</p>
                 <p>hello</p>
+                <ol>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ol>
             </div>
         )
     }
