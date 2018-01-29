@@ -1,36 +1,13 @@
-import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
+'use strict'
+import React, { Component } from 'react';
+import ReactDom from 'react-dom';
+import LoginComponent from './components/qinqi/LoginComponent.js';
 
-function App1(props) {
-    return <p>app1:{parseInt(props.number1) + 1}</p>
-}
-
-function App2(props) {
-    return (
-        <div>
-        <p>app2:{parseInt(props.number2) - 1}</p>
-        </div>
-)
-}
-
-
-class Index extends React.Component {
-    constructor() {
-        super();
-        this.state = {number: ""}
-        this.handleChange = this.handleChange.bind(this);
-    }
-
-    handleChange(e) {
-        this.setState({number: e.target.value})
-    }
-
+export default class App extends React.Component {
     render() {
         return (
             <div>
-                <input type="text" value={this.state.number} onChange={this.handleChange}/>
-                <App1 number1={this.state.number}/>
-                <App2 number2={this.state.number}/>
+                <LoginComponent />
             </div>
         )
     }
@@ -38,6 +15,6 @@ class Index extends React.Component {
 
 
 ReactDOM.render(
-    <Index/>,
+    <App />,
     document.getElementById('root')
 );
