@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    overflow-x: hidden;
+}
+.col-lg-3,.col-md-3,.col-xs-6{
+    padding: 0;
+}
+
+/*
+CarouselComponent
+*/
+.carousel{
+    position: relative;
+    width: 495%;
+}
+.carousel ul.carousel-img{
+    position: absolute;
+    left: -17.7%;
+    width: 100%;
+}
+.carousel ul.run-slide{
+    transition: all 800ms ease-in-out;
+}
+.carousel ul.stop-slide{
+    transition: all 0ms ease-in-out;
+}
+.carousel ul.carousel-img li{
+    background: rgba(0,0,0,.5);
+    float: left;
+    position: relative;
+    width: 11.1111%;
+    height: 320px;
+}
+.carousel ul.carousel-img li img{
+    width: 100%;
+    height: 320px;
+    background: rgba(0,0,0,.5);
+}
+.carousel ul.carousel-img li a{
+    display: none;
+}
+.carousel ul.carousel-img li.active a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+.carousel ul.carousel-img li.active{
+    opacity: 1;
+}
+.carousel ul.carousel-img li a .discribe{
+    position: absolute;
+    bottom: 40px;
+    width: 85%;
+    margin-left: 7%;
+}
+.carousel ul.carousel-img li a .discribe p{
+    font-size: 16px;
+    color: #f5f5f5;
+}
+.carousel ul.carousel-img li a .discribe p.discribe-word{
+    float: left;
+    width: 70%;
+ }
+.carousel ul.carousel-img li a .discribe p.discribe-look{
+    padding: 1% 3.5%;
+    float: right;
+    border: 1px solid #f5f5f5;
+}
+.carousel-btn span{
+    width: 22.5%;
+    height: 100%;
+    display: block;
+    vertical-align: middle;
+}
+.carousel-btn span img{
+    width: 50px;
+    height: 50px;
+    display: none;
+    margin: 135px auto;
+}
+.carousel-btn span:hover img{
+    display: block;
+}
+.carousel-btn span img:hover{
+    cursor: pointer;
+}
+.carousel-btn .carousel-btn-left{
+    position: absolute;
+}
+.carousel-btn .carousel-btn-right{
+    position: absolute;
+    right: 0
+}
+
+
+
+
+/*
+TypeComponent
+*/
+.type{
+    position: relative;
+    top: 320px;
+    background-color: #e4e4e4;
+    padding: 3.5% 5%;
+    border-bottom: 1px solid #666;
+}
+.type-cont{
+    margin: 0 auto;
+    background-color: #f2f2f2;
+}
+.navb{
+    padding: 2% 4%;
+    border-bottom:1px solid #666;
+}
+.navb ul.type-cont-title{
+    margin-bottom: 0;
+}
+.navb ul.type-cont-title li{
+    display: inline-block;
+    padding: 0 2%;
+    font-weight: bold;
+    font-size: 22px;
+    color: #999;
+}
+.navb ul.type-cont-title li:hover{
+    color: #333;
+    cursor: pointer;
+}
+.navb ul.type-cont-title li.active{
+    color: #111;
+}
+
+.type-cont-recom{
+    padding: 2% 4% 4% 4%;
+}
+.type-cont-recom .recom-main{
+    width: 47%;
+    display: inline-block;
+}
+.type-cont-recom .recom-main h3{
+    font-size:25px;
+    font-weight: bold;
+    padding-left: 4%;
+}
+.type-cont-recom .recom-main .recom-main-disc{
+    width: 100%;
+    position: relative;
+}
+.type-cont-recom .recom-main .recom-main-disc img{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+}
+.type-cont-recom .recom-main .recom-main-disc p{
+    position: absolute;
+    bottom: 0;
+    padding: 0 13%;
+    color: #f2f2f2;
+    font-size:12px;
+}
+
+.type-cont-recom .recom-detail{
+    float: right;
+    width: 47%;
+    margin-left: 6%;
+    display: inline-block;
+}
+.type-cont-recom .recom-detail h4{
+    font-size:18px;
+    padding: 2% 0;
+    border-bottom: 1px solid #666;
+}
+.type-cont-recom .recom-detail .recom-detail-cont li{
+    padding: 1% 0;
+    border-bottom: 1px solid #666666;
+}
+.type-cont-recom .recom-detail .recom-detail-cont li:first-child{
+    padding: 0 0 1% 0;
+}
+.recom-detail-cont .recom-detail-img p{
+    float: right;
+    width: 57%;
+}
+.recom-detail-cont .recom-detail-img img{
+    width: 40%;
+    height: 67px;
+}
+
+
+
+/*
+introComponent
+*/
+.intro{
+    position: relative;
+    top: 320px;
+    background-color: #e4e4e4;
+}
+.intro .intro-img{
+    width: 100%;
+    padding: 3.5% 5%;
+    border-bottom: 1px solid #666;
+}
+.intro img{
+    width: 100%;
+    height: 350px;
+}
+.intro .container{
+    padding: 3.5% 0 2% 0;
+}
+.intro .container .row div{
+    padding: 2% 2%;
+    background-color: #f2f2f2;
+    border-right: 1px solid #666;
+}
+.intro .container .row div:last-child{
+    border-right: 0px;
+}
+.intro .container .row div p{
+    font-size:14px;
+}
+.intro .container .row div p strong{
+    font-size: 18px;
+    color: #00ccb1;
+}
+
+
+
+/*
+FooterComponent
+*/
+.footer{
+    position: relative;
+    top: 320px;
+    background-color: #e4e4e4;
+}
+.footer .container{
+    padding: 0;
+}
+.footer-cont li.footer-title{
+    font-size:14px;
+    padding: 0 0 2% 0;
+}
+.footer-cont li a{
+    text-decoration: none;
+    color: #666;
+}
+.footer-cont li:hover a{
+    color: #333;
+}
