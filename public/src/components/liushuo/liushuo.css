@@ -1,0 +1,146 @@
+*{
+    padding:0;
+    margin:0;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: black;
+    list-style: none;
+}
+/*-------------  我的页面样式代码----------*/
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*设置*/
+
+.MyInfor_content img{
+    width: 100%;
+    height: 100%;
+}
+.MyInfor_content .MyInfor_content_img{
+    border-radius: 125px;
+    overflow: hidden;
+    width: 125px;
+    height: 125px;
+}
+.MyInfor_content div+p{
+    font-size: 20px;
+    padding: 50px 5px;
+}
+.MyInfor_content li+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MyInfor_content li+li p{
+    font-size: 18px;
+}
+.MyComponent{
+    /*border: 1px solid black;*/
+    margin-top: 50px;
+}
+.MyInfor ul .MyInfor_title,.MyContent ul .MyContent_title{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.MyInfor ul li,.MyContent ul li{
+    font-size: 16px;
+    padding: 10px 30px;
+}
+.MyInfor .My_list,.MyContent .My_list{
+    cursor: pointer;
+}
+
+.MyInfor .MyInfor_div{
+    height: 150px;
+    border: 1px solid gainsboro;
+}
+/*我的*/
+.MyContent{
+    margin-top: 50px;
+}
+.MyContent .MyContent_detail{
+    height: 410px;
+    border: 1px solid gainsboro;
+    padding: 0 20px;
+}
+.MyContent .MyContent_detail .MyContent_detail_p{
+    font-weight: bolder;
+    font-size: 18px;
+    height: 30px;
+    margin: 20px 0 10px 0;
+    width: 100px;
+}
+.MyContent .MyContent_detail div hr{
+    padding: 0 5px;
+    border: 1px solid black;
+    margin-top: 0;
+}
+.MyContent .MyContent_project li{
+    height: 150px;
+    margin-top: 20px;
+}
+.MyContent .MyContent_project>li>p{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+}
+.MyContent_detail .MyContent_project{
+    /*width: 100%;*/
+
+}
+.MyContent_detail .MyContent_project li{
+    margin: 0;
+    padding: 0;
+}
+.MyContent_detail img{
+    width: 100%;
+    height: 80%;
+}
+.MyContent_detail .MyContent_project div{
+    padding: 0 0 0 40px;
+}
+.MyContent .MyContent_project_title{
+    font-weight: bolder;
+}
+.MyContent .MyContent_project_infor{
+    margin: 0;
+}
+#MyContent_project_supporting,#MyContent_project_refund,#MyContent_project_support,#MyContent_project_manage{
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color: gainsboro;
+    margin-right: 20px;
+}
+
+
+/*------------------------liushuo---------------------*/
