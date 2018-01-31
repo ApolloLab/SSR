@@ -22,27 +22,30 @@ form .col-md-8 {
 .index-nav-layout {
     height: 80px;
 }
-.index-nav-layout ul {
+.index-nav-layout-ul {
     margin:0 auto;
     height: 80px;
     line-height: 80px;
 }
 
-.index-nav-layout ul li{
-    width: 100px;
-    height: 80px;
-}
-
-.index-nav-layout ul li a{
-    display: inline-block;
+.index-nav-layout-li{
     width: 200px;
-    height:80px;
-    text-decoration: none;
-    color:#000;
+    height: 80px;
     text-align: center;
 }
 
+.index-nav-layout-a{
+    padding:0 !important;
+    font-size:18px;
+    text-decoration: none;
+    width: 200px;
+    height:80px;
+    line-height:80px !important;
+    color:#000;
+}
+
 .index-nav-layout ul li a:hover{
+    color:#000;
     background:#d7d7d7;
 }
 
@@ -53,5 +56,6 @@ form .col-md-8 {
 
 .index-nav-layout ul li input {
     height: 30px;
-    margin-left: 60%;
+    width: 60%;
+    margin-left: 40%;
 }
