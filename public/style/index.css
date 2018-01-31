@@ -3,6 +3,10 @@
     margin:0;
 }
 
+a{
+    text-decoration: none;
+}
+
 .LoginComponent-left-box {
     margin:50px 0;
 }
@@ -13,4 +17,41 @@
 
 form .col-md-8 {
     margin:0 auto;
+}
+
+.index-nav-layout {
+    height: 80px;
+}
+.index-nav-layout ul {
+    margin:0 auto;
+    height: 80px;
+    line-height: 80px;
+}
+
+.index-nav-layout ul li{
+    width: 100px;
+    height: 80px;
+}
+
+.index-nav-layout ul li a{
+    display: inline-block;
+    width: 200px;
+    height:80px;
+    text-decoration: none;
+    color:#000;
+    text-align: center;
+}
+
+.index-nav-layout ul li a:hover{
+    background:#d7d7d7;
+}
+
+.index-nav-layout ul li a:visited {
+    background-color: #d7d7d7;
+}
+
+
+.index-nav-layout ul li input {
+    height: 30px;
+    margin-left: 60%;
 }
