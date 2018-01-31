@@ -44,7 +44,7 @@ export default class App extends Component {
                             <Route exact path="/" component={HomeComponent}/>
                             <Route path="/find" component={FindObjComponent}/>
                             <Route path="/release" component={ReleaseProject}/>
-                            <Route path="/login" component={LoginComponent}/>
+                            <Route path="/login" component={MyComponent}/>
                         </Switch>
                     </div>
                 </div>
