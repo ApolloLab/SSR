@@ -40,9 +40,9 @@ module.exports = {
             {
                 test: [/\.gif$/, /\.jpe?g$/, /\.png$/],
                 loader: 'url-loader',
-                // options: {
-                //     limit: 10000, //1w字节以下大小的图片会自动转成base64
-                // }
+                options: {
+                    limit: 10000, //1w字节以下大小的图片会自动转成base64
+                }
             },
             {
                 test: /\.json$/,
